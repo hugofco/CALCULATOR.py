@@ -84,17 +84,17 @@ b_15 = Button(frame_body, text="➖", width=4, heigh=2, bg=color5,
               fg=color2, font="Ivy 13 bold", relief=RAISED, overrelief=RIDGE)
 b_15.place(x=188, y=119)
 
-b_15 = Button(frame_body, text="=", width=4, heigh=2, bg=color5,
+b_16 = Button(frame_body, text="=", width=5, heigh=2, bg=color5,
               fg=color2, font="Ivy 13 bold", relief=RAISED, overrelief=RIDGE)
-b_15.place(x=188, y=169)
+b_16.place(x=188, y=169)
 
-b_15 = Button(frame_body, text="0", width=6, heigh=2, bg=color4,
+b_17 = Button(frame_body, text=".", width=6, heigh=2, bg=color4,
               fg=color1, font="Ivy 13 bold", relief=RAISED, overrelief=RIDGE)
-b_15.place(x=119, y=169)
+b_17.place(x=118, y=169)
 
-b_15 = Button(frame_body, text="*", width=12, heigh=2, bg=color5,
-              fg=color2, font="Ivy 13 bold", relief=RAISED, overrelief=RIDGE)
-b_15.place(x=-5, y=169)
+b_18 = Button(frame_body, text="0", width=12, heigh=2, bg=color4,
+              fg=color1, font="Ivy 13 bold", relief=RAISED, overrelief=RIDGE)
+b_18.place(x=-4, y=169)
 
 
 window.mainloop()

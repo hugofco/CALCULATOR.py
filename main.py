@@ -1,4 +1,5 @@
 # importing tkinter
+from re import A
 from tkinter import *
 from tkinter import ttk
 from turtle import bgcolor, color
@@ -8,7 +9,7 @@ color1 = "#000000"  # black
 color2 = "#fcfcfc"  # white
 color3 = "#3052b8"  # smoothblue
 color4 = "#969aa3"  # gray
-color5 = "#f7942a"  # orang
+color5 = "#f7942a"  # orange
 
 window = Tk()
 window.title("calculadora")
@@ -22,6 +23,24 @@ frame_window.grid(row=0, column=0)
 
 frame_body = Frame(window, width=235, height=268)
 frame_body.grid(row=1, column=0)
+
+# creating functions
+
+
+def calculate():
+    result = eval('8+8')
+
+    # passing values to the screen
+    app_label.set(result)
+
+
+calculate()
+
+
+# creating label
+app_label = Label(frame_window, text='', width=16, height=2, padx=7, relief=FLAT, anchor="e", font="Ivy 18", bg=color3, fg=color2)
+app_label.place(x=0, y=0)
+
 
 # creating buttons
 

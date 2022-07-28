@@ -1,2 +1,2 @@
 # CALCULATOR.py
-A first project from a begginer and enthusiast of tecnology.
+First thing that i've ever tried to code using python following a guide on the internet.
